@@ -14,7 +14,7 @@ body {
     align-items: center;
 
     /* Typography stuff */
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     color: white;
 }
 
@@ -39,6 +39,19 @@ button {
     border-radius: 4px;
     border: none;
     padding: 12px 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f5f5f5;
+}
+
+button:active {
+    background: #e0e0e0;
+}
+
+.caption {
+    font-size: .7em;
 }
 
 .command-palette {
@@ -51,7 +64,12 @@ button {
     margin: 24px 0;
 }
 
+#command-text {
+    color: rgba(255,255,255,.8);
+}
+
 #command-text:before {
     content: '>';
     margin-right: 24px;
+    color: rgba(255,255,255,1);
 }
