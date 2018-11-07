@@ -1,0 +1,10 @@
+<svg width="229" height="53" viewBox="0 0 229 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="51" height="51" rx="7" fill="white" fill-opacity="0.1" stroke="white" stroke-width="2"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="IBM Plex Sans" font-size="16" letter-spacing="-0.015em"><tspan x="14.355" y="32.216">ctrl</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="IBM Plex Sans" font-size="16" letter-spacing="-0.015em"><tspan x="65.3231" y="32.216">+</tspan></text>
+<rect x="89" y="1" width="51" height="51" rx="7" fill="white" fill-opacity="0.1" stroke="white" stroke-width="2"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="IBM Plex Sans" font-size="16" letter-spacing="-0.015em"><tspan x="153.323" y="32.216">+</tspan></text>
+<path d="M122 26L114.5 19L107 26H111.138V33H117.862V26H122Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="177" y="1" width="51" height="51" rx="7" fill="white" fill-opacity="0.1" stroke="white" stroke-width="2"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="IBM Plex Sans" font-size="16" letter-spacing="-0.015em"><tspan x="197.323" y="32.216">1</tspan></text>
+</svg>
