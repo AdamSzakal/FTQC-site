@@ -1,54 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	<title>Chrome Extension: Toggle Figma Quick Command</title>
+  <head>
+    <title>Chrome Extension: Toggle Figma Quick Command</title>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1"><title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title></title>
 
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2c2c2c">
-	<meta name="msapplication-TileColor" content="#2c2c2c">
-	<meta name="theme-color" content="#2c2c2c">
-    </head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2c2c2c" />
+    <meta name="msapplication-TileColor" content="#2c2c2c" />
+    <meta name="theme-color" content="#2c2c2c" />
+  </head>
 
-    <body>
-	<section>
+  <body>
+    <section>
+      <div class="relative">
+        <video src="FTQC-xxs.mov" autoplay loop></video>
+        <div class="gradient-cover"></div>
+      </div>
+    </section>
 
-	    <img id="key-combo" src="key-combo.svg" alt="">
+    <article>
+      <h1>
+        Hey, it's the <strong>Figma Toggle Quickcommand</strong>-extension!
+      </h1>
+      <h2>So... what's going on here?</h2>
+      <p>
+        In Figma, there's this <strong>experimental command dialog</strong> that
+        allows you to quickly search and access all your layers, components and
+        documents. They might give an official release later, but it is
+        currently only available through the console in your browser. A dang
+        hassle.
+      </p>
+      <h2>Huh.</h2>
+      <p>
+        This plugin simply binds a
+        <a id="tooltip-trigger" href="#"
+          >keyboard shortcut
+          <img id="key-combo" src="key-combo_tooltip.svg" alt="" />
+        </a>
+        to that command, so you don't have to wrestle with the console all the
+        time.
+      </p>
 
-	    <div class="vertical-line"></div>
+      <h2>Cool, I want that – what do I need?</h2>
+      <p>
+        You'll need Google Chrome, and this extension of course. <br />Then just
+        mash <strong>ctrl+↑+1</strong>
+      </p>
 
-	    <h1>
-		A Chrome extension to unlock Figmas Quick Command-palette.
-	    </h1>
+      <h2>Sweet! Anything else?</h2>
+      <p>
+        Yeah, you should definately listen to
+        <a href="https://www.youtube.com/watch?v=u9UDf0YTmEU">Kilroy</a>!
+      </p>
 
-	    <div class="vertical-line"></div>
+      <form action="https://github.com/DavidForss">
+        <button>Get it from GitHub →</button>
+      </form>
 
-	    <form action="https://github.com/DavidForss">
-		<button>Get it from GitHub →</button>
-	    </form>
-
-
-	    <!-- <div class="command-palette"> -->
-	    <!-- <h1 id="command-text"> -->
-	    <!-- <1!-- A Chrome extension to unlock Figmas Quick Command-palette. --1> -->
-	    <!-- Type anything (action, layer, file, etc.) -->
-	    <!-- </h1> -->
-	    <!-- </div> -->
-
-	    <footer>
-		<a href="https://www.raket.co" class="caption">
-		    <img src="raket-logo.svg" alt="">
-		</a>
-	    </footer>
-
-	</section>
-    </body>
+      <!-- <footer> -->
+      <!--   <a href="https://www.raket.co" class="caption"> -->
+      <!--     <img src="raket-logo.svg" alt="" /> -->
+      <!--   </a> -->
+      <!-- </footer> -->
+    </article>
+  </body>
 </html>
