@@ -1,5 +1,7 @@
 # Hey, it's the Figma Toggle Quickcommand-extension!
 
+[Website for the Figma Toggle Quickcommand-plugin (discontinued)](https://figmaquickcommand.netlify.com)
+
 ## So... what's going on here?
 
 In Figma, there's this experimental command dialog that allows you to quickly search and access all your layers, components and documents. They might give an official release later, but it is currently only available through the console in your browser. A dang hassle.
